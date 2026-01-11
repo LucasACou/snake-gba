@@ -1,0 +1,8 @@
+# Pasta de build
+build/
+
+# Arquivos gerados pelo compilador
+*.d
+*.o
+*.elf
+*.map
