@@ -1,0 +1,20 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build GBA",
+            "type": "shell",
+            "command": "C:/devkitPro/msys2/usr/bin/bash.exe",
+            "args": [
+                "-l",
+                "-c",
+                "cd /d/DOCUMENTOS/Hobby/snake-gba/gba-game && make"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": "$gcc"
+        }
+    ]
+}
